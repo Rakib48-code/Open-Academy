@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
 
-    <!-- This is search view -->
-<!--    <record id="session_search_view" model="ir.ui.view">-->
-<!--        <field name="name">openacademy.session.search</field>-->
-<!--        <field name="name">openacademy.session</field>-->
-<!--        <field name="arch" type="xml">-->
-<!--            <search>-->
-
-<!--            </search>-->
-<!--        </field>-->
-<!--    </record>-->
 
     <!-- This is Form view -->
     <record id="session_form_view" model="ir.ui.view">
@@ -20,10 +10,10 @@
             <form>
                 <sheet>
                     <group>
-<!--                        <field name="name"/>-->
-<!--                        <field name="start_date"/>-->
-<!--                        <field name="duration"/>-->
-<!--                        <field name="seats"/>-->
+                        <!--                        <field name="name"/>-->
+                        <!--                        <field name="start_date"/>-->
+                        <!--                        <field name="duration"/>-->
+                        <!--                        <field name="seats"/>-->
                         <group string="General">
                             <field name="course_id"/>
                             <field name="name"/>
@@ -61,14 +51,14 @@
         <field name="view_mode">tree,form</field>
         <field name="help" type="html">
             <p class="o_view_nocontent_smiling_face">
-            Create a session here
+                Create a session here
             </p>
         </field>
     </record>
 
     <menuitem id="sessions_menu"
               name="Sessions"
-              parent="session_main_menu"
+              parent="open_academy_menu"
               groups="group_openacademy_manager"
               action="session_action_view"
               sequence="0"/>

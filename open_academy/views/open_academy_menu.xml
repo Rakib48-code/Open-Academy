@@ -7,16 +7,14 @@
               sequence="0"/>
 
     <menuitem id="open_academy_menu"
-              name="Open Academy Courses"
+              name="Open Academy"
               groups="group_openacademy_manager"
               parent="open_academy_root_menu"
               sequence="0"/>
 
-    <menuitem id="session_main_menu"
-              name="Open Academy Sessions"
-              groups="group_openacademy_manager"
-              parent="open_academy_root_menu"
-              sequence="0"/>
+
+    <menuitem id="configuration_menu" name="Configuration"
+              parent="open_academy_root_menu"/>
 
 </odoo>
 
