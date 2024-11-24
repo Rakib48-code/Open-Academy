@@ -19,7 +19,7 @@
     ],
     # data files containing optionally loaded demonstration data
     'demo': [
-        'demo/demo.xml',
+        'demo/demo_data.xml',
     ],
     'installable': True,
     'application': True,
